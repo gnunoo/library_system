@@ -1,0 +1,16 @@
+{% extends 'book/base_full_width.html' %}
+
+{% block head_title %}대여함 - Book{% endblock %}
+
+{% block main_area %}
+<h1>대여함</h1>
+<hr/>
+<form method="POST" action="/book/borrow_post/"> {% csrf_token %}
+
+    {% for borrowpost in borrowpost %}
+        <input type="checkbox" name="borrowbook" value="{{borrowpost.pk}},{{borrowpost.title}}">{{ borrowpost }}</input>
+        <hr/>
+    {% endfor %}
+    <input type="submit" class="btn btn-info btn-sm float-right" value="반납">
+</form>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends 'book/base.html' %}
+
+{% block head_title %}
+    {{ post.title }}-book
+{% endblock %}
+
+{% block main_area %}
+
+                <div class="col-lg-12" id="post-area">
+                     <!-- 책 카테고리-->
+                    {% if post.category %}
+                        <span class="badge badge-secondary float-right">{{ post.category }}</span>
+                    {% else %}
+                        <span class="badge badge-secondary float-right">미분류</span>
+                    {% endif %}
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- 책 제목-->
+                            <h1 class="fw-bolder mb-1">제목: {{ post.title }}</h1>
+                            <!-- 책 작성자-->
+                            <div class="text-muted fst-italic mb-2">작가: {{ post.writer }}</div>
+                                {% if user.is_authenticated %}
+                                    {% if user.is_superuser or user.is_staff %}
+                                    <a class="btn btn-secondary  float-right" href="/book/update_book/{{ post.pk }}/" role="button"><i class="fas fa-pen"></i> Edit Book</a>
+                                    {% endif %}
+                                {% endif %}
+                        </header>
+                        <hr/>
+                        <!-- 책 내용-->
+                        <p>내용: </p>
+                        <section class="mb-5">
+                           <p>{{ post.content }}</p>
+                        </section>
+                    </article>
+                </div>
+
+
+{% endblock %}
+

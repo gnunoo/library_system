@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+     <link rel="stylesheet" href="{% static 'accounts/bootstrap/bootstrap.min.css' %}" media="screen">
+</head>
+<body>
+<div class="wrapper">
+    <div style="text-align: center;">
+        <h1>회원 가입</h1>
+        <form method="POST">{% csrf_token %}
+            <table>
+                {{ form }}
+            </table>
+            <button type="submit" class="btn btn-primary float-right">submut</button>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
