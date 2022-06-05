@@ -10,6 +10,7 @@ class PostList(ListView):
     model = Post
     ordering = '-pk'
     paginate_by = 5
+
     def get_context_data(self, **kwargs):
         context = super(PostList, self).get_context_data()
         context['categories'] = Category.objects.all()
@@ -26,27 +27,26 @@ class PostDetail(DetailView):
         context['no_category_post_count'] = Post.objects.filter(category=None).count()
 
         return context
-
+#도서 등록
 class PostCreate(LoginRequiredMixin,UserPassesTestMixin,CreateView):
     model=Post
-    fields = ['id','title','writer','content','author','category']
+    fields = ['id','title','writer','content','author','category','created_at']
 
 
     def test_func(self):
         return self.request.user.is_superuser or self.request.user.is_staff
 
-
-    def form_valid(self, form):
+    def form_valid(self, form):#직원만 도서를 등록할 수 있다.
         current_user = self.request.user
         if current_user.is_authenticated and (current_user.is_staff or current_user.is_superuser):
 
             return super(PostCreate, self).form_valid(form)
         else:
             return redirect('/book/')
-
+#도서 수정
 class PostUpdate(LoginRequiredMixin,UpdateView):
     model=Post
-    fields = ['id','title','writer','content','author','category']
+    fields = ['id','title','writer','content','author','category','created_at']
 
     template_name = 'book/post_update_form.html'
 
@@ -57,7 +57,7 @@ class PostUpdate(LoginRequiredMixin,UpdateView):
             raise PermissionDenied
 
 
-
+#카테고리 분류
 def category_page(request, slug):
     if slug == 'no_category':
         category = '미분류'
@@ -76,9 +76,7 @@ def category_page(request, slug):
             'category': category,
         }
     )
-
-
-
+#검색기능
 class PostSearch(PostList):
     paginate_by = None
 
@@ -94,7 +92,7 @@ class PostSearch(PostList):
 
         return context
 
-
+#반납 대여
 def mypost(requset):
     if requset.method=='POST':
         #대여
