@@ -41,11 +41,31 @@
 <img src='https://github.com/gnunoo/library_system/assets/97424506/0c42e55c-bed4-46ea-acde-642585dd0493' width='600px' height='400px'><br/>
 -책추가 수정(관리자 계정)<br/>
 <img src='https://github.com/gnunoo/library_system/assets/97424506/626cf9be-0566-4453-8f2b-482202863ad4' width='600px' height='400px'><br/>  
-![image](https://github.com/gnunoo/library_system/assets/97424506/a3cc305e-d078-4113-a362-0aaaa06399fc)
+![image](https://github.com/gnunoo/library_system/assets/97424506/a3cc305e-d078-4113-a362-0aaaa06399fc)<br/>
 
 ![image](https://github.com/gnunoo/library_system/assets/97424506/5e3f50a2-4831-473a-a526-3fb541329de5)<br/>
 
 ![image](https://github.com/gnunoo/library_system/assets/97424506/448d57ae-bd1f-4c88-9aa5-1d65f6280f1e)<br/>
+
+-대여,반납<br/>
+클릭하고 대여 버튼을 누르면 대여함으로 이동하고 반납누르면 반납화면으로 이동합니다.<br/>
+![image](https://github.com/gnunoo/library_system/assets/97424506/255317ad-2606-443e-9913-7c3990c48314)<br/>
+대여 후<br/>
+![image](https://github.com/gnunoo/library_system/assets/97424506/9af3b02e-e310-4c36-b35e-ccd4df45fa96)<br/>
+반납 누르고 난 후<br/>
+
+![image](https://github.com/gnunoo/library_system/assets/97424506/804aca4b-76a8-4254-8c94-126a662495b5)<br/>
+![image](https://github.com/gnunoo/library_system/assets/97424506/b997a449-09f9-4e2e-a39e-26068bee9d5d)<br/>
+
+
+
+
+
+
+
+
+
+
 
 
 
