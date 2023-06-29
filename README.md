@@ -2,7 +2,7 @@
 
 # 프로젝트 소개
 
-- Do it! 장고 + 부스트랩 파이썬웹 개발의 정석 책으로 공부한 CRUD기능을 복습할 겸, 대학교 DB전공과목에서 내준 도서관리 시스템 만들기 과제를 하기 위해서 프로젝트를 진행하게 되었다. 또한 sqlite3가 아닌 DB전공과목에서 배운 Ms-sql DBMS를 연동하고 사용해보았다. 그리고 소셜 로그인이 아니라 UserCreationForm, authenticate, login, logout, redirect 라이브러리를 이용하여 로그인, 회원가입, 로그아웃의 알고리즘을 배워 보았다. 
+- Do it! 장고 + 부스트랩 파이썬웹 개발의 정석 책으로 공부한 django를 복습할 겸, 대학교 DB전공과목에서 내준 도서관리 시스템 만들기 과제를 하기 위해서 프로젝트를 진행하게 되었다. 또한 sqlite3가 아닌 DB전공과목에서 배운 Ms-sql DBMS를 연동하고 사용해보았다. 그리고 소셜 로그인이 아니라 UserCreationForm, authenticate, login, logout, redirect 라이브러리를 이용하여 로그인, 회원가입, 로그아웃의 알고리즘을 배워 보았다. 
 
 
 # 프로젝트 구조
@@ -32,14 +32,30 @@
 
 
 
-# 소스코드에 대해서 소개를 해야하는데 으ㅡㄸㄲ게 하지??
+#  구현 방법
+-로그인: 데이터를 가져와서 DB에 있는지 없는지 확인<br/>
+-회원가입: UserCreationForm라이브러리 사용<br/>
+-책 리스트 보기: &nbsp; ListView를 상속 받아서 구현(get_context_data 오버라이딩)<br/>
+-도서 등록 : &nbsp; CreateView를 상속받아서 도서를 추가할 수 있도록 구현 관리자만 등록 할 수 있게 UserPassesTestMixin 라이브러리 사용<br/>
+-대여: <br/>
+1.Post 통신으로 받아온 데이터(chekbox에 cheack된 데이터)를 split함수로 제목,id 값을 분리<br/>
+2. borrowPost 테이블에 save()함수를 이용해서 데이터를 저장 합니다.(omr 사용)<br/>
+3. 도서테이블에 데이터를 get()으로 갖고 와서 삭제<br/>
+-반납: <br/>
+대여 기능이랑 많이 비슷합니다.<br/>
+
+1.Post 통신으로 받아온 데이터(chekbox에 cheack된 데이터)를 split함수로 제목,id 값을 분리합니다.<br/>
+2. 도서 테이블(post)에 저장 합니다.<br/>
+3.대여 테이블(borrowpost)에는 삭제 합니다.<br/>
+
+
 
 # 결과물 
 -Login<br/>
 <img src='https://github.com/gnunoo/library_system/assets/97424506/bd244cb1-0212-4794-9711-f05edccdbcc4' width='600px' height='400px'><br/>
 -Signup<br/>
 <img src='https://github.com/gnunoo/library_system/assets/97424506/0c42e55c-bed4-46ea-acde-642585dd0493' width='600px' height='400px'><br/>
--책추가 수정(관리자 계정)<br/>
+-책 등록, 수정(관리자 계정)<br/>
 <img src='https://github.com/gnunoo/library_system/assets/97424506/626cf9be-0566-4453-8f2b-482202863ad4' width='600px' height='400px'><br/>  
 ![image](https://github.com/gnunoo/library_system/assets/97424506/a3cc305e-d078-4113-a362-0aaaa06399fc)<br/>
 
