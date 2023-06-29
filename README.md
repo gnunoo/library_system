@@ -40,6 +40,6 @@
 -Signup<br/>
 <img src='https://github.com/gnunoo/library_system/assets/97424506/0c42e55c-bed4-46ea-acde-642585dd0493' width='600px' height='400px'><br/>
 -Create<br/>
-<img src='https://github.com/gnunoo/library_system/assets/97424506/5636aa6a-9269-42b7-97b7-05f039d608bc' width='600px' height='400px'><br/> -> <img scr='https://github.com/gnunoo/library_system/assets/97424506/464579fd-b633-4ad4-a3be-a0c5492a409c' width='600px' heigth='400px'>
+<img src='https://github.com/gnunoo/library_system/assets/97424506/626cf9be-0566-4453-8f2b-482202863ad4' width='600px' height='400px'><br/> -> <img scr='https://github.com/gnunoo/library_system/assets/97424506/be368593-4040-45ff-8be0-d2b17dafc86d' width='600px' heigth='400px'>
 
 -Update
