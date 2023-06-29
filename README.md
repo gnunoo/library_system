@@ -36,4 +36,4 @@
 
 # 결과물 
 -Login<br/>
-<img src='https://github.com/gnunoo/library_system/assets/97424506/bd244cb1-0212-4794-9711-f05edccdbcc4' width='400px' height='400px'><br/>
+<img src='https://github.com/gnunoo/library_system/assets/97424506/bd244cb1-0212-4794-9711-f05edccdbcc4' width='600px' height='400px'><br/>
