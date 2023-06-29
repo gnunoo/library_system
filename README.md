@@ -21,7 +21,7 @@
 
 
 # 개발 툴 및 사용 언어
-개발 툴: &nbsp; <img alt="pycharm" src ="https://img.shields.io/badge/pycharm-000000.svg?&style=for-the-badge&logo=pycharm&logoColor=whithe"/>
+개발 툴: &nbsp; <img alt="pycharm" src ="https://img.shields.io/badge/pycharm-000000.svg?&style=for-the-badge&logo=pycharm&logoColor=whithe"/><br/>
 프레임워크: &nbsp; <img alt="django" src ="https://img.shields.io/badge/django-092E20.svg?&style=for-the-badge&logo=django&logoColor=black"/><br/>
 언어: &nbsp; <img alt="python" src ="https://img.shields.io/badge/python-3776AB.svg?&style=for-the-badge&logo=python&logoColor=black"/>&nbsp;<img alt="javascript" src ="https://img.shields.io/badge/javascript-F7DF1E.svg?&style=for-the-badge&logo=css3&logoColor=black"/>&nbsp; <img alt="bootstrap" src ="https://img.shields.io/badge/bootstrap-7952B3.svg?&style=for-the-badge&logo=bootstrap&logoColor=black"/><br/>
 
@@ -36,4 +36,4 @@
 
 # 결과물 
 -Login<br/>
-<img src='https://github.com/gnunoo/library_system/assets/97424506/bd244cb1-0212-4794-9711-f05edccdbcc4' width='200px' height='400px'><br/>
+<img src='https://github.com/gnunoo/library_system/assets/97424506/bd244cb1-0212-4794-9711-f05edccdbcc4' width='400px' height='400px'><br/>
