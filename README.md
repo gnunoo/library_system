@@ -5,9 +5,18 @@
 - Do it! 장고 + 부스트랩 파이썬웹 개발의 정석 책으로 공부한 CRUD기능을 복습할 겸, 대학교 DB전공과목에서 내준 도서관리 시스템 만들기 과제를 하기 위해서 프로젝트를 진행하게 되었다. 또한 sqlite3가 아닌 DB전공과목에서 배운 Ms-sql DBMS를 연동하고 사용해보았다. 그리고 소셜 로그인이 아니라 UserCreationForm, authenticate, login, logout, redirect 라이브러리를 이용하여 로그인, 회원가입, 로그아웃의 알고리즘을 배워 보았다. 
 
 
-# 프로젝트 구성
+# 프로젝트 구조
 ![image](https://github.com/gnunoo/library_system/assets/97424506/75c81d4c-0b2f-4ae0-b294-5ca0ea9ac44f)
 
+
+DB 테이블
+![image](https://github.com/gnunoo/library_system/assets/97424506/964fab74-21e8-4ca3-8fb3-2913e2d4980e)<br/>
+
+![image](https://github.com/gnunoo/library_system/assets/97424506/ebb16205-e154-495f-b031-d0fd0224d86f)<br/>
+
+![image](https://github.com/gnunoo/library_system/assets/97424506/d56aa982-afd4-4801-98a3-1ee74b7337f3)<br/>
+
+![image](https://github.com/gnunoo/library_system/assets/97424506/36ba6b5c-f9e8-4f52-982a-ec6b1e63c286)
 
 
 
