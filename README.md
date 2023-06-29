@@ -39,7 +39,7 @@
 -도서 등록 : &nbsp; CreateView를 상속받아서 도서를 추가할 수 있도록 구현 관리자만 등록 할 수 있게 UserPassesTestMixin 라이브러리 사용<br/>
 -대여: <br/>
 1.Post 통신으로 받아온 데이터(chekbox에 cheack된 데이터)를 split함수로 제목,id 값을 분리<br/>
-2. borrowPost 테이블에 save()함수를 이용해서 데이터를 저장 합니다.(omr 사용)<br/>
+2. borrowPost 테이블에 save()함수를 이용해서 데이터를 저장 합니다.(orm 사용)<br/>
 3. 도서테이블에 데이터를 get()으로 갖고 와서 삭제<br/>
 -반납: <br/>
 대여 기능이랑 많이 비슷합니다.<br/>
