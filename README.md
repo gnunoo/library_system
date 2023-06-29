@@ -23,7 +23,7 @@
 # 개발 툴 및 사용 언어
 개발 툴: &nbsp; <img alt="pycharm" src ="https://img.shields.io/badge/pycharm-000000.svg?&style=for-the-badge&logo=pycharm&logoColor=whithe"/><br/>
 프레임워크: &nbsp; <img alt="django" src ="https://img.shields.io/badge/django-092E20.svg?&style=for-the-badge&logo=django&logoColor=black"/><br/>
-언어: &nbsp; <img alt="python" src ="https://img.shields.io/badge/python-3776AB.svg?&style=for-the-badge&logo=python&logoColor=black"/>&nbsp;<img alt="javascript" src ="https://img.shields.io/badge/javascript-F7DF1E.svg?&style=for-the-badge&logo=css3&logoColor=black"/>
+언어: &nbsp; <img alt="python" src ="https://img.shields.io/badge/python-3776AB.svg?&style=for-the-badge&logo=python&logoColor=black"/>&nbsp;<img alt="javascript" src ="https://img.shields.io/badge/javascript-F7DF1E.svg?&style=for-the-badge&logo=css3&logoColor=black"/><br/>
 그 외: &nbsp;<img alt="html5" src ="https://img.shields.io/badge/html5-E34F26.svg?&style=for-the-badge&logo=html5&logoColor=black"/>&nbsp;<img alt="css3" src ="https://img.shields.io/badge/css3-1572B6.svg?&style=for-the-badge&logo=css3&logoColor=black"/> &nbsp; <img alt="bootstrap" src ="https://img.shields.io/badge/bootstrap-7952B3.svg?&style=for-the-badge&logo=bootstrap&logoColor=black"/><br/>
 
 
