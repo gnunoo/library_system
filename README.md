@@ -36,11 +36,11 @@
 
 # 결과물 
 -Login<br/>
-<img src='https://github.com/gnunoo/library_system/assets/97424506/bd244cb1-0212-4794-9711-f05edccdbcc4' width='800px' height='600px'><br/>
+<img src='https://github.com/gnunoo/library_system/assets/97424506/bd244cb1-0212-4794-9711-f05edccdbcc4' width='600px' height='400px'><br/>
 -Signup<br/>
-<img src='https://github.com/gnunoo/library_system/assets/97424506/0c42e55c-bed4-46ea-acde-642585dd0493' width='800px' height='600px'><br/>
+<img src='https://github.com/gnunoo/library_system/assets/97424506/0c42e55c-bed4-46ea-acde-642585dd0493' width='600px' height='400px'><br/>
 -책추가 수정(관리자 계정)<br/>
-<img src='https://github.com/gnunoo/library_system/assets/97424506/626cf9be-0566-4453-8f2b-482202863ad4' width='800px' height='600px'><br/>  
+<img src='https://github.com/gnunoo/library_system/assets/97424506/626cf9be-0566-4453-8f2b-482202863ad4' width='600px' height='400px'><br/>  
 ![image](https://github.com/gnunoo/library_system/assets/97424506/a3cc305e-d078-4113-a362-0aaaa06399fc)<br/>
 
 ![image](https://github.com/gnunoo/library_system/assets/97424506/5e3f50a2-4831-473a-a526-3fb541329de5)<br/>
