@@ -41,7 +41,7 @@
 <img src='https://github.com/gnunoo/library_system/assets/97424506/0c42e55c-bed4-46ea-acde-642585dd0493' width='600px' height='400px'><br/>
 -Create<br/>
 <img src='https://github.com/gnunoo/library_system/assets/97424506/626cf9be-0566-4453-8f2b-482202863ad4' width='600px' height='400px'><br/>  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↓
-<img scr='https://github.com/gnunoo/library_system/assets/97424506/be368593-4040-45ff-8be0-d2b17dafc86d' width='600px' heigth='400px'>
+
+<img scr='https://github.com/gnunoo/library_system/assets/97424506/be368593-4040-45ff-8be0-d2b17dafc86d' width='600px' heigth='400px'><br/>
 
 -Update
